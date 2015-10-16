@@ -1,1 +1,1 @@
-print("Hello World \n"*100)
+print("Hello World\n"*99)
