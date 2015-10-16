@@ -1,1 +1,2 @@
-print("Hello World\n"*99)
+for i in range(100):
+    print("Hello World")
