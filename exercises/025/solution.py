@@ -1,4 +1,2 @@
-import datetime
-ymd = datetime.datetime.now().date()
-hms = datetime.datetime.now().strftime("%H:%M:%S")
-print("Today is ", ymd, " and it is ", hms)
+import time
+print(time.strftime("Today is %Y-%m-%d and it is %H:%M:%S"))
