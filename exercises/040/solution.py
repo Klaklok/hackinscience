@@ -1,3 +1,3 @@
-for i in range(0, 102, 2):
-    i += i
-print(i)
+var1 = range(2, 102, 2)
+print(var1[0 + 49] * len(var1) / 2)
+    
