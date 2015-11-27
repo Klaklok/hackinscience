@@ -2,7 +2,7 @@ def sort_a_list(l):
     return sorted(l, reverse=True)
 
 
-def sort_a_mark(my_class):
+def sort_by_mark(my_class):
     return sorted(my_class, reverse=True)
 
 
