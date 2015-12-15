@@ -9,7 +9,7 @@ def sort_a_list(l):
                 l[i+1] = temp
         num -= 1
     return(l)
-        
+
 
 def sort_by_mark(my_class):
     return sorted(my_class, reverse=True)
