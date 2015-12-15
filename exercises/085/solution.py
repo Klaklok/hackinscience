@@ -3,7 +3,7 @@ def sort_a_list(l):
     temp = 0
     while num > 0:
         for i in range(num):
-            if l[i] > l[i+1]:
+            if l[i] < l[i+1]:
                 temp = l[i]
                 l[i] = l[i+1]
                 l[i+1] = temp
