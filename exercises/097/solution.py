@@ -4,7 +4,7 @@ def love_meet(alice, bob):
     return(i & j)
 
 
-def affair_meet(alice, bob, silvester):
+def affair_meet(bob, alice, silvester):
     i = set(alice)
     j = set(bob)
     k = set(silvester)
